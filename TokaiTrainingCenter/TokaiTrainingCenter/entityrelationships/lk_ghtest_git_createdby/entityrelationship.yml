@@ -1,0 +1,20 @@
+EntityRelationship:
+  '@Name': lk_ghtest_git_createdby
+  EntityRelationshipType: OneToMany
+  IsCustomizable: 1
+  IntroducedVersion: 1.0
+  IsHierarchical: 0
+  ReferencingEntityName: ghtest_GIt
+  ReferencedEntityName: SystemUser
+  CascadeAssign: NoCascade
+  CascadeDelete: NoCascade
+  CascadeArchive: NoCascade
+  CascadeReparent: NoCascade
+  CascadeShare: NoCascade
+  CascadeUnshare: NoCascade
+  ReferencingAttributeName: CreatedBy
+  RelationshipDescription:
+    Descriptions:
+      Description:
+        '@description': レコードを作成したユーザーを表す一意識別子。
+        '@languagecode': 1041

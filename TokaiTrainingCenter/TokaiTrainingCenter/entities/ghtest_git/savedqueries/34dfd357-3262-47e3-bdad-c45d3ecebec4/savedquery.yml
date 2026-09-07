@@ -1,0 +1,53 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 1
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{34dfd357-3262-47e3-bdad-c45d3ecebec4}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': ghtest_column_7c18a573
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': ghtest_gitid
+        cell:
+        - '@name': ghtest_column_7c18a573
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 4
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': ghtest_git
+        attribute:
+        - '@name': ghtest_gitid
+        - '@name': ghtest_column_7c18a573
+        - '@name': createdon
+        order:
+          '@attribute': ghtest_column_7c18a573
+          '@descending': false
+        filter:
+        - '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+        - '@type': or
+          '@isquickfindfields': 1
+          condition:
+            '@attribute': ghtest_column_7c18a573
+            '@operator': like
+            '@value': '{0}'
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': アクティブなGIt連携テストの簡易検索
+      '@languagecode': 1041

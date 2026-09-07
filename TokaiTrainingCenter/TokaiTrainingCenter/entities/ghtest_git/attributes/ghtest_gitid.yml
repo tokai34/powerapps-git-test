@@ -1,0 +1,40 @@
+attribute:
+  '@PhysicalName': ghtest_GItId
+  Type: primarykey
+  Name: ghtest_gitid
+  LogicalName: ghtest_gitid
+  RequiredLevel: systemrequired
+  DisplayMask: ValidForAdvancedFind|RequiredForGrid
+  ImeMode: auto
+  ValidForUpdateApi: 0
+  ValidForReadApi: 1
+  ValidForCreateApi: 1
+  IsCustomField: 0
+  IsAuditEnabled: 0
+  IsSecured: 0
+  IntroducedVersion: 1.0
+  IsCustomizable: 1
+  IsRenameable: 1
+  CanModifySearchSettings: 1
+  CanModifyRequirementLevelSettings: 0
+  CanModifyAdditionalSettings: 1
+  SourceType: 0
+  IsGlobalFilterEnabled: 0
+  IsSortableEnabled: 0
+  CanModifyGlobalFilterSettings: 1
+  CanModifyIsSortableSettings: 1
+  IsDataSourceSecret: 0
+  IsSearchable: 0
+  IsFilterable: 1
+  IsRetrievable: 1
+  IsLocalizable: 0
+  displaynames:
+    displayname:
+    - '@description': GIt連携テスト
+      '@languagecode': 1033
+    - '@description': GIt連携テスト
+      '@languagecode': 1041
+  Descriptions:
+    Description:
+      '@description': エンティティのインスタンスを表す一意識別子
+      '@languagecode': 1041

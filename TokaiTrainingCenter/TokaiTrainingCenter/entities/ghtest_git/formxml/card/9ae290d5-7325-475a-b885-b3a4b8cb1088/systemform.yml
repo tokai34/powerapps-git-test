@@ -1,0 +1,159 @@
+systemform:
+  formid: '{9ae290d5-7325-475a-b885-b3a4b8cb1088}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@name': general
+        '@verticallayout': true
+        '@id': '{98511757-24E4-494D-A798-C133E65BC464}'
+        '@IsUserDefined': 0
+        labels:
+          label:
+            '@description': ''
+            '@languagecode': 1041
+        columns:
+          column:
+          - '@width': 25%
+            sections:
+              section:
+                '@name': ColorStrip
+                '@showlabel': false
+                '@showbar': false
+                '@columns': 1
+                '@IsUserDefined': 0
+                '@id': '{3F16CAA2-D886-4CD1-9A87-5E114E9FBEED}'
+                labels:
+                  label:
+                    '@description': ColorStrip
+                    '@languagecode': 1041
+          - '@width': 75%
+            sections:
+              section:
+              - '@name': CardHeader
+                '@showlabel': false
+                '@showbar': false
+                '@columns': 111
+                '@id': '{F11D3980-A8C9-47E4-9721-341E614A07DD}'
+                '@IsUserDefined': 0
+                labels:
+                  label:
+                    '@description': ヘッダー
+                    '@languagecode': 1041
+                rows:
+                  row:
+                    cell:
+                    - '@id': '{36B4754D-EB9A-4268-9837-52BE8056262F}'
+                      '@showlabel': true
+                      '@locklevel': 0
+                      labels:
+                        label:
+                          '@description': ステータス
+                          '@languagecode': 1041
+                      control:
+                        '@id': statuscode
+                        '@classid': '{5D68B988-0661-4db2-BC3E-17598AD3BE6C}'
+                        '@datafieldname': statuscode
+                        '@disabled': false
+                    - '@id': '{D39F4642-10B0-4261-9D58-1EC90419E590}'
+                      '@showlabel': true
+                      '@locklevel': 0
+                      labels:
+                        label:
+                          '@description': ''
+                          '@languagecode': 1041
+                    - '@id': '{E7AA843C-2252-4A22-9DD6-0E5C67A55BB2}'
+                      '@showlabel': true
+                      '@locklevel': 0
+                      labels:
+                        label:
+                          '@description': ''
+                          '@languagecode': 1041
+              - '@name': CardDetails
+                '@showlabel': false
+                '@showbar': false
+                '@columns': 1
+                '@id': '{B3460AD7-68C1-4BDD-BFCC-3A374FD9B0B2}'
+                '@IsUserDefined': 0
+                labels:
+                  label:
+                    '@description': 詳細
+                    '@languagecode': 1041
+                rows:
+                  row:
+                    cell:
+                      '@id': '{4B8A93AE-A696-4364-80F9-BC73592737EA}'
+                      '@showlabel': true
+                      '@locklevel': 0
+                      labels:
+                        label:
+                          '@description': 新しい列
+                          '@languagecode': 1041
+                      control:
+                        '@id': ghtest_column_7c18a573
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': ghtest_column_7c18a573
+                        '@disabled': false
+              - '@name': CardFooter
+                '@showlabel': false
+                '@columns': 1111
+                '@showbar': false
+                '@id': '{04CEC6AE-8A9F-4C44-BD3C-A70FF8E239D8}'
+                '@IsUserDefined': 0
+                labels:
+                  label:
+                    '@description': フッター
+                    '@languagecode': 1041
+                rows:
+                  row:
+                    cell:
+                    - '@id': '{E23BBF83-0E41-49E0-8BEF-8E4B1822B6DC}'
+                      '@showlabel': true
+                      '@locklevel': 0
+                      labels:
+                        label:
+                          '@description': 所有者
+                          '@languagecode': 1041
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                        '@disabled': false
+                    - '@id': '{7AD802D6-A33C-4166-A729-60B417241FD6}'
+                      '@showlabel': true
+                      '@locklevel': 0
+                      labels:
+                        label:
+                          '@description': 作成日
+                          '@languagecode': 1041
+                      control:
+                        '@id': createdon
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': createdon
+                        '@disabled': false
+                    - '@id': '{A6DA592F-BEC2-4B57-AECA-819AA5E03978}'
+                      '@showlabel': true
+                      '@locklevel': 0
+                      labels:
+                        label:
+                          '@description': ''
+                          '@languagecode': 1041
+                    - '@id': '{726C3E2E-7D72-4FC9-B0B1-49C1C25F8E0D}'
+                      '@showlabel': true
+                      '@locklevel': 0
+                      labels:
+                        label:
+                          '@description': ''
+                          '@languagecode': 1041
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': 情報
+      '@languagecode': 1041
+  Descriptions:
+    Description:
+      '@description': このエンティティ用のカード フォームです。
+      '@languagecode': 1041

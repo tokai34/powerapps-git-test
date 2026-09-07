@@ -1,0 +1,41 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{1ca5c5fd-44d1-4c42-96ca-fba605d6d05f}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': ghtest_column_7c18a573
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': ghtest_gitid
+        cell:
+        - '@name': ghtest_column_7c18a573
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 1
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': ghtest_git
+        attribute:
+        - '@name': ghtest_gitid
+        - '@name': ghtest_column_7c18a573
+        - '@name': createdon
+        order:
+          '@attribute': ghtest_column_7c18a573
+          '@descending': false
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': GIt連携テストの高度な検索ビュー
+      '@languagecode': 1041

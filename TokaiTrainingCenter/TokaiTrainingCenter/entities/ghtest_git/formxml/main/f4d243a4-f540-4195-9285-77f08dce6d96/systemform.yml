@@ -1,0 +1,60 @@
+systemform:
+  formid: '{f4d243a4-f540-4195-9285-77f08dce6d96}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{105094FE-26C4-48BB-9B16-041A83B28FAC}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': 全般
+            '@languagecode': 1041
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{41B9BF5A-0A42-42D1-A324-27872CB4881B}'
+                labels:
+                  label:
+                    '@description': 全般
+                    '@languagecode': 1041
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{7EBBFE82-2C27-4656-8C9C-346B465A9629}'
+                      labels:
+                        label:
+                          '@description': 新しい列
+                          '@languagecode': 1041
+                      control:
+                        '@id': ghtest_column_7c18a573
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': ghtest_column_7c18a573
+                  - cell:
+                      '@id': '{878F940B-9115-4CA9-93F4-C1EBA6169947}'
+                      labels:
+                        label:
+                          '@description': 所有者
+                          '@languagecode': 1041
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': 情報
+      '@languagecode': 1041
+  Descriptions:
+    Description:
+      '@description': このエンティティ用のフォームです。
+      '@languagecode': 1041

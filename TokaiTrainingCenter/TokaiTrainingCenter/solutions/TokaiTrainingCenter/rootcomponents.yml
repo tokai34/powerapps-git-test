@@ -1,1 +1,5 @@
-RootComponents: 
+RootComponents:
+  RootComponent:
+    '@type': 1
+    '@schemaName': ghtest_git
+    '@behavior': 0
