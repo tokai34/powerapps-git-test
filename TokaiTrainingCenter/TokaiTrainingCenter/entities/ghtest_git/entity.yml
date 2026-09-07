@@ -16,7 +16,7 @@ Entity:
         LocalizedCollectionName:
         - '@description': GIt連携テスト
           '@languagecode': 1033
-        - '@description': GIt連携テスト
+        - '@description': VSCodeから変更した列
           '@languagecode': 1041
       Descriptions:
         Description:
