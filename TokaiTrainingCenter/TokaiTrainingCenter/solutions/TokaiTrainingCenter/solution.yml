@@ -1,0 +1,17 @@
+ImportExportXml:
+  '@version': 9.2.26083.157
+  '@SolutionPackageVersion': 9.2
+  '@languagecode': 1041
+  '@generatedBy': CrmLive
+  '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  SolutionManifest:
+    UniqueName: TokaiTrainingCenter
+    LocalizedNames:
+      LocalizedName:
+        '@description': Tokai Training Center
+        '@languagecode': 1041
+    Descriptions: 
+    Version: 1.0.0.0
+    Managed: 0
+    Publisher:
+      UniqueName: GitHubTest
